@@ -1,0 +1,38 @@
+class Contenedor {
+    Contenedor() {
+        pilotos = new Pilotos[] {
+            new Piloto(
+                new Vuelo[] {
+                   new Vuelo(
+                      new Aeronave("Boeing", "354", 323),
+                      "AR5132154",
+                      143,
+                      new Date(2019,02,14,11,15,00),
+                      new Date(2019,02,14,11,30,00)
+                   )
+                },
+                "Jorge Farias - Privado"
+            ),
+            new Piloto(
+            )
+        }
+    }
+    Piloto[] pilotos;
+}
+
+class Piloto {
+    Public piloto(Vuelos[] vuelos, String nombreApellido) {
+    }
+    Vuelo[] vuelos;
+}
+
+class Vuelo {
+    Vuelo(Aeronave aeronave, String nroVuelo, int cantPasajeros, Date salida, Date llegada) {
+    }
+    Aerovave aeronave;
+}
+
+class Aeronave {
+   Aeronave(String Marca, String Modelo, int Capacidad) {
+   }
+}
